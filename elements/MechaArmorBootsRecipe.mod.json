@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DiamondRod"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondRod"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PISTON"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MechaArmor.boots"
+    },
+    "name": "mecha_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 385,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Extract!",
+          "onClick": {
+            "name": "Extract1"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Extract!",
+          "x": 264,
+          "y": 186
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "32 stone required",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "32 stone required",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "belowstoneicon.png",
+          "name": "belowstoneicon.png",
+          "x": 462,
+          "y": 96
+        }
+      }
+    ]
+  }
+}

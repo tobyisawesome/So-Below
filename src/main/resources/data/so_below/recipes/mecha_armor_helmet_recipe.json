@@ -1,0 +1,29 @@
+{
+  "group": "so_below",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:comparator"
+    },
+    "1": {
+      "item": "minecraft:observer"
+    },
+    "2": {
+      "item": "minecraft:comparator"
+    },
+    "3": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "5": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "item": "so_below:mecha_helmet",
+    "count": 1
+  }
+}

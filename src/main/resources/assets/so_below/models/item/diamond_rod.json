@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "so_below:items/diamond_stick"
+  }
+}

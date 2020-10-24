@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.TRIPWIRE_HOOK"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Blocks.TRIPWIRE_HOOK"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "Items.MINECART"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.MINECART"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MechaArmor.legs"
+    },
+    "name": "mecha_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

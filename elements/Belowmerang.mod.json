@@ -1,0 +1,50 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "belowmerang",
+    "customModelName": "Normal",
+    "name": "Belowmerang",
+    "specialInfo": [
+      "THIS IS FOR KILLING THINGS."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "BelowmerangRangedItemUsed"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Belowmerang"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "BelowmerangBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "BelowmerangBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "BelowmerangBulletHitsPlayer"
+    }
+  }
+}

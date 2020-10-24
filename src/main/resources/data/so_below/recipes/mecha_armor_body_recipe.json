@@ -1,0 +1,39 @@
+{
+  "group": "so_below",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dispenser"
+    },
+    "2": {
+      "item": "minecraft:dispenser"
+    },
+    "3": {
+      "item": "minecraft:repeater"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "minecraft:repeater"
+    },
+    "6": {
+      "item": "minecraft:piston"
+    },
+    "7": {
+      "item": "minecraft:crossbow"
+    },
+    "8": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "so_below:mecha_chestplate",
+    "count": 1
+  }
+}

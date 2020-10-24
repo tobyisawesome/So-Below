@@ -1,0 +1,709 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Hardstone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardstone"
+    },
+    {
+      "name": "Wildstone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wildstone"
+    },
+    {
+      "name": "Toughstone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toughstone"
+    },
+    {
+      "name": "Softrock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "softrock"
+    },
+    {
+      "name": "Extraction",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extraction"
+    },
+    {
+      "name": "Extract1",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extract_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineralExtractor",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineral_extractor"
+    },
+    {
+      "name": "Deepstone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepstone"
+    },
+    {
+      "name": "DeepstoneDiamondOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepstone_diamond_ore"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_rod"
+    },
+    {
+      "name": "DiamondRodRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_rod_recipe"
+    },
+    {
+      "name": "Deepaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepaxe"
+    },
+    {
+      "name": "DeepaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepaxe_recipe"
+    },
+    {
+      "name": "Belowaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowaxe"
+    },
+    {
+      "name": "BelowaxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowaxe_recipe"
+    },
+    {
+      "name": "MoltenRockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_rock_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoltenRock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_rock"
+    },
+    {
+      "name": "MoltenRockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_rock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoltenRockPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_rock_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Witherite",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "witherite"
+    },
+    {
+      "name": "WitheriteUpdateTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "witherite_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Belowmerang",
+      "type": "gun",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowmerang"
+    },
+    {
+      "name": "BelowmerangBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowmerang_bullet_hits_player",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BelowmerangBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowmerang_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BelowmerangRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowmerang_recipe"
+    },
+    {
+      "name": "BelowmerangBulletHitsBlock2",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowmerang_bullet_hits_block_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BelowmerangRangedItemUsed",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowmerang_ranged_item_used",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MechaArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_armor_leggings_recipe"
+    },
+    {
+      "name": "MechaArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_armor_boots_recipe"
+    },
+    {
+      "name": "Mecha",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "PistonActivated",
+      "type": "potion",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piston_activated"
+    },
+    {
+      "name": "PistonActivatedOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piston_activated_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MechaArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_armor_body_recipe"
+    },
+    {
+      "name": "MechaArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_armor_helmet_recipe"
+    },
+    {
+      "name": "MechaLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TurretActivatedOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turret_activated_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TurretActivated",
+      "type": "potion",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turret_activated"
+    },
+    {
+      "name": "MechaBodyTickEvent",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumGun",
+      "type": "gun",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drum_gun"
+    },
+    {
+      "name": "MidasOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "midas_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Midas",
+      "type": "mob",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "midas"
+    },
+    {
+      "name": "Belowstone",
+      "type": "biome",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belowstone"
+    },
+    {
+      "name": "MoltenBelowstone",
+      "type": "biome",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_belowstone"
+    },
+    {
+      "name": "MoltenRockUpdateTick",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_rock_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BelowRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "below_recipe"
+    },
+    {
+      "name": "TheBelow",
+      "type": "dimension",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_below"
+    },
+    {
+      "name": "GoldenScepterRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_scepter_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "clang",
+      "file": "snoring2",
+      "category": "master"
+    },
+    {
+      "name": "drum",
+      "file": "drum_shot_1",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.so_below.deepstone": "Deepstone",
+      "item.minecraft.tipped_arrow.effect.turret_activated": "Arrow of Turret Activated",
+      "item.so_below.belowaxe": "Belowaxe",
+      "block.so_below.deepstone_diamond_ore": "Deepstone Diamond Ore",
+      "item.minecraft.lingering_potion.effect.piston_activated": "Lingering Pistons Activated",
+      "item.so_below.the_below": "Golden Scepter",
+      "item.so_below.mechahelmet": "Mecha Helmet",
+      "item.so_below.mecha_leggings": "Mecha Leggings",
+      "block.so_below.mineral_extractor": "Mineral Extractor",
+      "item.minecraft.lingering_potion.effect.turret_activated": "Lingering Turret Activated",
+      "entity.so_below.midas": "Midas",
+      "item.so_below.mechaboots": "Mecha Boots",
+      "item.so_below.drum_gun": "Midas\u0027 Drum Gun",
+      "item.so_below.belowmerang": "Belowmerang",
+      "item.so_below.diamond_rod": "Diamond Rod",
+      "item.minecraft.tipped_arrow.effect.piston_activated": "Arrow of Pistons Activated",
+      "block.so_below.hardstone": "Hardstone",
+      "block.so_below.toughstone": "Toughstone",
+      "item.so_below.mecha_chestplate": "Mecha Body",
+      "item.minecraft.potion.effect.piston_activated": "Pistons Activated",
+      "block.so_below.witherite": "Witherite",
+      "item.minecraft.splash_potion.effect.piston_activated": "Splash Pistons Activated",
+      "item.so_below.mecha_helmet": "Mecha Helmet",
+      "item.so_below.mechabody": "Mecha Body",
+      "item.so_below.midas": "Midas Spawn Egg",
+      "block.so_below.softrock": "Softrock",
+      "effect.turret_activated": "Turret Activated",
+      "block.so_below.molten_rock": "Molten Rock",
+      "item.so_below.deepaxe": "Deepaxe",
+      "item.so_below.mechalegs": "Mecha Leggings",
+      "item.minecraft.potion.effect.turret_activated": "Turret Activated",
+      "block.so_below.wildstone": "Wildstone",
+      "item.so_below.mecha_boots": "Mecha Boots",
+      "effect.piston_activated": "Pistons Activated",
+      "item.minecraft.splash_potion.effect.turret_activated": "Splash Turret Activated"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "so_below",
+    "modName": "So Below",
+    "version": "1.0.0",
+    "author": "tobyd, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.sobelow",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

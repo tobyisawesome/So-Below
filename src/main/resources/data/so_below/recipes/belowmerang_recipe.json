@@ -1,0 +1,22 @@
+{
+  "group": "so_below",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "so_below:belowaxe"
+    },
+    {
+      "item": "so_below:belowaxe"
+    },
+    {
+      "item": "so_below:belowaxe"
+    },
+    {
+      "item": "so_below:belowaxe"
+    }
+  ],
+  "result": {
+    "item": "so_below:belowmerang",
+    "count": 1
+  }
+}

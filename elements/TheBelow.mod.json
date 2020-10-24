@@ -1,0 +1,50 @@
+{
+  "_fv": 10,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:MoltenRock"
+    },
+    "portalParticles": {
+      "value": "FLAME"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.fire.ambient"
+    },
+    "igniterName": "Golden Scepter",
+    "igniterTab": {
+      "value": "MISC"
+    },
+    "texture": "gold_scepter",
+    "portalTexture": "portal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Belowstone"
+      },
+      {
+        "value": "CUSTOM:MoltenBelowstone"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Deepstone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:MoltenRock"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": true,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true
+  }
+}

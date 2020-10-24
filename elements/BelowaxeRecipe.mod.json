@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Deepstone"
+      },
+      {
+        "value": "CUSTOM:Deepaxe"
+      },
+      {
+        "value": "CUSTOM:Deepstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondRod"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondRod"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Belowaxe"
+    },
+    "name": "belowaxe_recipe",
+    "namespace": "mod"
+  }
+}

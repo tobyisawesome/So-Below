@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "so_below:blocks/stage1",
+    "particle": "so_below:blocks/stage1"
+  }
+}

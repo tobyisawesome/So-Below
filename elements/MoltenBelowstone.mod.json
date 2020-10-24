@@ -1,0 +1,86 @@
+{
+  "_fv": 10,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "CUSTOM:MoltenRock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Deepstone"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 3,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -52480,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 4,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.4,
+    "baseHeight": 1.0,
+    "heightVariation": 0.5,
+    "spawnBiome": false,
+    "biomeWeight": 7,
+    "biomeType": "WARM",
+    "biomeCategory": "NETHER",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "SPOOKY",
+      "DEAD",
+      "NETHER"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityMagmaCube"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

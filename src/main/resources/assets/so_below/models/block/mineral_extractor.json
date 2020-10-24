@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "so_below:blocks/stonecutter_bottom",
+    "up": "so_below:blocks/stonecutter_top",
+    "north": "so_below:blocks/stonecutter_side1",
+    "east": "so_below:blocks/stonecutter_side2",
+    "south": "so_below:blocks/stonecutter_side2",
+    "west": "so_below:blocks/stonecutter_side2",
+    "particle": "so_below:blocks/stonecutter_bottom"
+  }
+}

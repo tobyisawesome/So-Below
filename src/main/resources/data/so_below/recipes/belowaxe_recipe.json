@@ -1,0 +1,30 @@
+{
+  "group": "so_below",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "so_below:deepstone"
+    },
+    "1": {
+      "item": "so_below:deepaxe"
+    },
+    "2": {
+      "item": "so_below:deepstone"
+    },
+    "4": {
+      "item": "so_below:diamond_rod"
+    },
+    "7": {
+      "item": "so_below:diamond_rod"
+    }
+  },
+  "result": {
+    "item": "so_below:belowaxe",
+    "count": 1
+  }
+}

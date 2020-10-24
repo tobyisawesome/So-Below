@@ -1,0 +1,36 @@
+{
+  "group": "so_below",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "3": {
+      "item": "minecraft:piston"
+    },
+    "5": {
+      "item": "minecraft:piston"
+    },
+    "6": {
+      "item": "minecraft:minecart"
+    },
+    "8": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "result": {
+    "item": "so_below:unknown_element_leggings",
+    "count": 1
+  }
+}

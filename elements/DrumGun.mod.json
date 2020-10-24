@@ -1,0 +1,38 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "2",
+    "customModelName": "Normal",
+    "name": "Midas' Drum Gun",
+    "specialInfo": [
+      "Wrapped in gold."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.GOLD_NUGGET"
+    },
+    "shootConstantly": true,
+    "usageCount": 432,
+    "actionSound": {
+      "value": "CUSTOM:drum"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.5,
+    "bulletPower": 1.0,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.GOLD_NUGGET"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

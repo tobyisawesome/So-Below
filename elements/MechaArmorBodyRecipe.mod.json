@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DISPENSER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DISPENSER"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "Items.CROSSBOW"
+      },
+      {
+        "value": "Blocks.PISTON"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Mecha.body"
+    },
+    "name": "mecha_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

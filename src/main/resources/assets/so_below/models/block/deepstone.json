@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "so_below:blocks/belowstone",
+    "up": "so_below:blocks/belowstone_top",
+    "north": "so_below:blocks/belowstone",
+    "east": "so_below:blocks/belowstone",
+    "south": "so_below:blocks/belowstone",
+    "west": "so_below:blocks/belowstone",
+    "particle": "so_below:blocks/belowstone"
+  }
+}

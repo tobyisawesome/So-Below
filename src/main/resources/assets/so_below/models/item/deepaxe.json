@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "so_below:items/bedrock_pick"
+  }
+}

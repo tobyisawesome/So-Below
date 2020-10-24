@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "so_below:blocks/belowstone_diamond_ore",
+    "up": "so_below:blocks/belowstone_diamond_ore_top",
+    "north": "so_below:blocks/belowstone_diamond_ore",
+    "east": "so_below:blocks/belowstone_diamond_ore",
+    "south": "so_below:blocks/belowstone_diamond_ore",
+    "west": "so_below:blocks/belowstone_diamond_ore",
+    "particle": "so_below:blocks/belowstone_diamond_ore"
+  }
+}

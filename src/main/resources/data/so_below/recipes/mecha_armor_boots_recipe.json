@@ -1,0 +1,33 @@
+{
+  "group": "so_below",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "so_below:diamond_rod"
+    },
+    "2": {
+      "item": "so_below:diamond_rod"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    },
+    "6": {
+      "item": "minecraft:piston"
+    },
+    "8": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "so_below:unknown_element_boots",
+    "count": 1
+  }
+}

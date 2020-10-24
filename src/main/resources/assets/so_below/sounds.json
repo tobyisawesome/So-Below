@@ -1,0 +1,20 @@
+{
+  "clang": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "so_below:snoring2",
+        "stream": false
+      }
+    ]
+  },
+  "drum": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "so_below:drum_shot_1",
+        "stream": false
+      }
+    ]
+  }
+}

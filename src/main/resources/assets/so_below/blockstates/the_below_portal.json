@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "so_below:block/the_below_portal_ew"
+    },
+    "axis=x": {
+      "model": "so_below:block/the_below_portal_ns"
+    }
+  }
+}
